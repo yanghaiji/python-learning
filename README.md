@@ -8,3 +8,4 @@
 
 - 写一个Hello Word程序
 - python中的注释
+- python中几个常用的几个函数
