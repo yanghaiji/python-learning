@@ -10,3 +10,7 @@ print("这是一个控制台的输出函数")
 age = input("请输入您的年龄:")
 
 print("您的年龄为: " + age)
+
+# range 标识指定范围内的数
+# 如 range(10) 标识 0~9的数组
+print(range(10))

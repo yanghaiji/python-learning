@@ -17,7 +17,7 @@ if age < 18:
     print("未成年人慎入")
 elif 22 < age < 28 and weight <= 98 and height >= 170:
     print("您是我的理想型，我们在一起吧！")
-elif age > 28 and weight > 98 and not height <= 160:
+elif age > 28 and weight > 98 and height <= 160:
     print("这就是现实，我只能接受！")
 else:
     print("不在我的考虑范围之内...")
