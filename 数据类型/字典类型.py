@@ -18,13 +18,19 @@ tel['guido'] = 4127
 print(tel)
 # 根据key获取value
 print("guido 的值为: " + str(tel['guido']))
+# 使用get 没有是默认返回None，
+print(tel.get("guido", "可以设定默认值"))
 
 # 删除元素
+# 删除是删除整个的键值对
 del tel['sape']
 print(tel)
 
 # 获取所有的key
 print(list(tel))
+tel.keys()
+# 获取所有的value
+tel.values()
 
 # 排序
 sorted(tel)
