@@ -35,13 +35,3 @@ finally:
     print("始终会执行的代码块")
 
 
-# raise 语句支持可选的 from 子句，该子句用于启用链式异常
-def func():
-    raise IOError
-
-
-try:
-    func()
-except IOError as exc:
-    print("-" * 30)
-    raise RuntimeError('Failed to open database') from exc
