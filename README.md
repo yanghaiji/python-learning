@@ -48,3 +48,6 @@
 - import 方式引入模块
 - import as 方式引入模块
 - from import 方式引入模块
+- package 定义
+  - init py的使用
+  - 导入包测试
