@@ -49,8 +49,17 @@
 - import as 方式引入模块
 - from import 方式引入模块
 - package 定义
-  - init py的使用
-  - 导入包测试
-  
+    - init py的使用
+    - 导入包测试
+
 ## 插曲
+
 - 用python画冬奥会的冰墩墩
+
+# 常用的内置模块
+
+- os
+- shutil
+- urllib smtplib
+- datetime
+- math random
