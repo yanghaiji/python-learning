@@ -61,5 +61,7 @@
 - os
 - shutil
 - urllib smtplib
+  - get
+  - post
 - datetime
 - math random
