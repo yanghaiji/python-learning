@@ -72,3 +72,6 @@
 - Lock
 - threading
 - subprocess
+
+# db
+- sqlite3
