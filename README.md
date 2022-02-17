@@ -61,12 +61,13 @@
 - os
 - shutil
 - urllib smtplib
-  - get
-  - post
+    - get
+    - post
 - datetime
 - math random
 
 # 多线程
+
 - Process
 - Pool
 - Lock
@@ -74,4 +75,15 @@
 - subprocess
 
 # db
+
 - sqlite3
+
+## flask
+
+> install.sh 需要下载的插件
+
+- flask_aap_demo
+- path_parameter_demo
+- costom_converter
+- before_after_demo
+- abort_demo
