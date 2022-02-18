@@ -15,6 +15,7 @@
     - 利用条件与input函数，实现一个找女票的小游戏
 - for 循环函数
 - while 循环
+- string format 最新版
 
 ## 数据类型
 
@@ -87,3 +88,6 @@
 - costom_converter
 - before_after_demo
 - abort_demo
+- json_demo
+- pgsql_demo
+- sqlalchemy_demo
