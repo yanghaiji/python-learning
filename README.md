@@ -88,3 +88,6 @@
 - costom_converter
 - before_after_demo
 - abort_demo
+- json_demo
+- pgsql_demo
+- sqlalchemy_demo
