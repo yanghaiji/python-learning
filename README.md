@@ -30,6 +30,10 @@
 
 - 函数的定义与使用
 
+## lambda
+
+- lambda函数使用示例
+
 ## 异常
 
 - 异常的使用方式
@@ -57,7 +61,7 @@
 
 - 用python画冬奥会的冰墩墩
 
-# 常用的内置模块
+## 常用的内置模块
 
 - os
 - shutil
@@ -67,7 +71,7 @@
 - datetime
 - math random
 
-# 多线程
+## 多线程
 
 - Process
 - Pool
@@ -75,7 +79,7 @@
 - threading
 - subprocess
 
-# db
+## db
 
 - sqlite3
 
@@ -91,3 +95,9 @@
 - json_demo
 - pgsql_demo
 - sqlalchemy_demo
+
+## sqlalchemy
+
+- create engine
+- create table
+- session 
