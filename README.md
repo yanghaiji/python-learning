@@ -82,6 +82,7 @@
 ## db
 
 - sqlite3
+- pgsql
 
 ## flask
 
