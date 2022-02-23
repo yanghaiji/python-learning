@@ -79,6 +79,13 @@
 - threading
 - subprocess
 
+## logging
+
+- log simple
+- log level
+- log formatter
+- 
+
 ## db
 
 - sqlite3
