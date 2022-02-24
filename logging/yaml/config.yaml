@@ -1,0 +1,31 @@
+version: 1
+
+formatters:
+  simple:
+    format: "%(asctime)s %(name)s: %(message)s"
+  extended:
+    format: "%(asctime)s %(name)s %(levelname)s: %(message)s"
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: simple
+    stream  : ext://sys.stdout
+  file_handler:
+    class: logging.handlers.RotatingFileHandler
+    level: INFO
+    filename: test_yaml.log
+    formatter: extended
+    # propagate: true
+    maxBytes: 1024
+    backupCount: 3
+
+
+loggers:
+  dev:
+    handlers: [console, file_handler]
+  test:
+    handlers: [file_handler]
+root:
+  handlers: [file_handler]
