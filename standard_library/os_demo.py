@@ -14,3 +14,13 @@ os.system("mkdir today")
 
 # 赋权
 # os.chmod()
+
+# 下载文件
+version = input('请输入安装包版本:')
+cmd = fr'/usr/ wget http://mirrors.sohu.com/nginx/nginx-{version}.zip'
+os.system(cmd)
+
+print('下载完毕')
+
+# 打开文件
+os.startfile('/usr/xxx_mm.xlsx')
