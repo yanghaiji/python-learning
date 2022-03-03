@@ -112,3 +112,7 @@
 
 ## pytest
 - 入门案例
+- pytest xml
+- pytest report
+- pytest conf
+
