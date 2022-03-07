@@ -115,4 +115,5 @@
 - pytest xml
 - pytest report
 - pytest conf
+- pytest annotation
 
