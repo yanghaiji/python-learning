@@ -19,7 +19,7 @@ def kill(pid):
 
 
 # 清理日志
-def remove_log(fileName):
+def remove_log(filename):
     if os.path.exists(filename):
         os.remove(filename)
     print("日志清理完成...")
