@@ -3,7 +3,6 @@ pytest 入门小案例
 
 执行 pytest test_demo01.py
 """
-import pytest
 
 
 def fun(x, y):
@@ -13,6 +12,3 @@ def fun(x, y):
 def test_answer():
     assert fun(3, 5) == 15
     assert fun(3, 5) != 15
-
-
-
